@@ -30,6 +30,10 @@ public void accelerate() {
 	speed+=10;
 	
 }
+public void changeInt(int i) {
+	i=i+10;
+}
+
 public static void main(String[]args) {
 	Object car1=new Object();
 	Object car2=new Object();
@@ -37,5 +41,9 @@ public static void main(String[]args) {
 	car2.speed=30.0;
 	System.out.println(car1.speed);
 	System.out.println(car2.speed);
+	int count=100;
+	car1.changeInt(count);
+	System.out.println(count);
+	
 }
 }
