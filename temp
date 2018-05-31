@@ -1,0 +1,22 @@
+
+public class Temp{
+double deg;
+double celsius,fahrenheit;
+public void celsius(double deg){
+deg=fahrenheit;
+celsius=5.0/9.0*(fahrenheit-32);
+System.out.println("celsius:"+celsius+"");
+}
+public void fahrenheit(double deg){
+deg=celsius;
+fahreheit=9.0/5.0*celsius=32;
+System.out.println("fahrenheit:"+fahrenheit);
+System.out.println():
+}
+public static void main(String[]args){
+Temp t=new Temp();
+Temp t1=new Temp();
+t.celsius(46);
+t1.fahrenheit(87);
+}
+}
